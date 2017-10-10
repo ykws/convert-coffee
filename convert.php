@@ -1,6 +1,6 @@
 <?php
 
-require_once('phpQuery-onefile.php');
+require 'vendor/autoload.php';
 
 exec('coffee -p ' . $argv[2], $output);
 
